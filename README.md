@@ -55,22 +55,32 @@ Edad = DATEDIFF(CLIENTE[FECHA_NACIMIENTO], TODAY(), YEAR)
 Mora s/BCRA SWITCH = SWITCH(TRUE(), DIAS_MORA <= 31, "S1 (Normal)", ...)
 Total Monto = SUM(CUENTA_PRESTAMO[MONTO])
 
-📈 Dashboard en Power BI
+## 📈 Dashboard en Power BI
 
 Incluye:
-Análisis por grupo etario y situación crediticia
-Relación entre tipo de producto y mora
-Geolocalización de clientes y estado de sus créditos
-Score vs Mora con filtros cruzados
+- Análisis por grupo etario y situación crediticia
+- Relación entre tipo de producto y mora
+- Geolocalización de clientes y estado de sus créditos
+- Score vs Mora con filtros cruzados
 
-📚 Futuras líneas de investigación
-Revisión y rediseño de los modelos de scoring
-Segmentación más precisa por producto y territorio
-Análisis combinado de variables sociodemográficas (edad, ingresos, educación)
+---
 
-🌐 Contacto
-📧 pazrepositorio@gmail.com
-🔗 LinkedIn
-💼 GitHub
+## 📚 Futuras líneas de investigación
 
-Gracias por visitar este proyecto. Está orientado a mejorar las estrategias de evaluación crediticia en instituciones financieras mediante datos y visualización inteligente.
+- Revisión y rediseño de los modelos de scoring
+- Segmentación más precisa por producto y territorio
+- Análisis combinado de variables sociodemográficas (edad, ingresos, educación)
+
+---
+
+## 🌐 Contacto
+
+- 📧 pazrepositorio@gmail.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/pazcamino)  
+- 💼 [GitHub](https://github.com/pazcaminoDA)
+
+---
+
+_Gracias por visitar este proyecto._
+
+

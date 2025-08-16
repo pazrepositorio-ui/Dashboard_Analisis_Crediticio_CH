@@ -46,15 +46,6 @@ Este proyecto analiza el comportamiento de mora en el Banco Federal a partir de 
   - CLIENTE, CUENTA_PRÉSTAMO, SCORE_CREDITICIO, PRODUCTO, ESTADO_CREDITO, etc.
 
 ---
-
-## 🔍 Algunas medidas clave (DAX)
-
-```DAX
-Clientes_Hombres = CALCULATE(COUNT(CLIENTE[ID_CLIENTE]), CLIENTE[ID_GENERO] = 2)
-Edad = DATEDIFF(CLIENTE[FECHA_NACIMIENTO], TODAY(), YEAR)
-Mora s/BCRA SWITCH = SWITCH(TRUE(), DIAS_MORA <= 31, "S1 (Normal)", ...)
-Total Monto = SUM(CUENTA_PRESTAMO[MONTO])
-
 ## 📈 Dashboard en Power BI
 
 Incluye:
